@@ -1,0 +1,29 @@
+.marks-section {
+    margin: 20px 0;
+    padding: 15px;
+    background-color: rgba(255, 165, 0, 0.08);
+    border-radius: 10px;
+    border: 1px solid #ffa50055;
+    transition: all 0.3s ease;
+}
+
+.collapsible-btn {
+    width: 100%;
+    text-align: left;
+    background: linear-gradient(to right, #ffa50033, #ffce5633);
+    color: #ffa500;
+    border: none;
+    padding: 12px 15px;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    box-shadow: 0 0 6px #ffa50033;
+    transition: background 0.3s ease, transform 0.2s ease;
+    cursor: pointer;
+}
+
+.collapsible-btn:hover {
+    background-color: rgba(255, 165, 0, 0.25);
+    transform: translateY(-2px);
+}

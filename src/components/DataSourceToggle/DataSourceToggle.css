@@ -1,0 +1,50 @@
+.data-toggle {
+    margin: 30px auto 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Segoe UI", sans-serif;
+}
+
+.data-toggle label {
+    font-weight: bold;
+    font-size: 18px;
+    color: #ffa500;
+    margin-bottom: 10px;
+    letter-spacing: 0.5px;
+}
+
+.toggle-buttons {
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.toggle-buttons button {
+    padding: 10px 22px;
+    border: 2px solid #b19cd9;
+    border-radius: 8px;
+    background: linear-gradient(145deg, #3a3a3a, #2c2c2c);
+    color: #f2f2f2;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 15px;
+    box-shadow: 0 4px 12px rgba(177, 156, 217, 0.2);
+    transition: all 0.3s ease;
+}
+
+.toggle-buttons button:hover {
+    background: #9a79d1;
+    box-shadow: 0 0 10px #b19cd9;
+    color: #fff;
+}
+
+.toggle-buttons button.active {
+    background: #b19cd9;
+    color: #fff;
+    box-shadow: 0 0 15px #b19cd9cc, 0 0 10px #ffa50088 inset;
+    border-color: #ffa500;
+    transform: scale(1.05);
+}
